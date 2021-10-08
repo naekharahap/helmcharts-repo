@@ -2,8 +2,9 @@
 apiVersion: route.openshift.io/v1
 kind: Route
 metadata:
-  name: {{ .Values.route.name }}
-  labels: {{ .Values.route.labels }}
+  name: {{ include "hello-world.fullname" . }}
+  labels:  
+    {{- include "hello-world.labels" . | nindent 4 }}
   annotations:
     {{- range $key, $value := .Values.route.annotations }}
     {{ $key }}: {{ $value | quote }}
@@ -13,7 +14,7 @@ spec:
     targetPort: {{ .Values.service.targetPort }}
   to:
     kind: Service
-    name: {{ .Values.service.name }}
+    name: {{ include "hello-world.fullname" . }}
     weight: 100
   wildcardPolicy: None
 {{- end }}

@@ -37,7 +37,6 @@ securityContext: {}
   # runAsUser: 1000
 
 service:
-  name: myhello-world
   type: ClusterIP
   portName: 8080-http
   port: 8080
@@ -86,5 +85,4 @@ affinity: {}
 
 route:
   enabled: true
-  name: myhello-world
   annotations: {}

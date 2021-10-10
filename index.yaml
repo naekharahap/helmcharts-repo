@@ -3,12 +3,12 @@ entries:
   helloworldnodejs:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2021-10-10T20:42:52.2889152+07:00"
+    created: "2021-10-11T04:34:49.0668687+07:00"
     description: A Helm chart for Kubernetes
-    digest: 9238f6ada6ac2116568bfb72d1d70ecdf0b1bd1cda062a908ab4e1adf8b36f4f
+    digest: 612fa15b220b5acd76e7fa0ed6a1706e3f14decc15faf1d623c7efc7de44acd4
     name: helloworldnodejs
     type: application
     urls:
     - helloworldnodejs-0.1.0.tgz
     version: 0.1.0
-generated: "2021-10-10T20:42:52.2873611+07:00"
+generated: "2021-10-11T04:34:49.0651436+07:00"

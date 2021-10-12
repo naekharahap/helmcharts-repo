@@ -3,12 +3,23 @@ entries:
   helloworldnodejs:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2021-10-11T09:00:04.251355+07:00"
+    created: "2021-10-12T14:35:51.3988038+07:00"
     description: A Helm chart for Kubernetes
-    digest: a84d8d56bc7e0a43bce33467f669ccd93046ced1673510e24e5c9df0a3cc6ca6
+    digest: 54e4ae658c404f79765ae2d7ce72c530a398be9d14740ba46449d691497f297f
     name: helloworldnodejs
     type: application
     urls:
     - helloworldnodejs-0.1.0.tgz
     version: 0.1.0
-generated: "2021-10-11T09:00:04.2492432+07:00"
+  helloworldspringboot:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2021-10-12T14:35:51.4009224+07:00"
+    description: A Helm chart for Kubernetes
+    digest: 0773d9aeeaa8b501ba75d97c8bf76b2156f50bac8c3140df90c1b6b6e64c6f10
+    name: helloworldspringboot
+    type: application
+    urls:
+    - helloworldspringboot-1.0.0.tgz
+    version: 1.0.0
+generated: "2021-10-12T14:35:51.3956467+07:00"
